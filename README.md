@@ -27,7 +27,6 @@ where **X** is `m x (n+1)` matrix, **y** is `m x 1` matrix, **theta** is `(n+1) 
 **NOTE:** In the normal equation computation, `m` should be greater than `n` because **X** is non-invertible if `m < n`, and may be non-invertible if `m = n`. We can solve non-invertable issue by using regularization term. See **Regularized Linear Regression** video of **Machine Learning** course by **Andrew Ng**.\
 # plotData.m -- *Script File*
 **plotData.m** file has plotData(X,y) method, that is used to visualize **X** `(m x 1)`, **y** `(m x 1)`, and univariate regression line. 
-**Methods:**
 # ex1.m -- *Script File*
 This is the file that should be run for univariate linear regression.This file loads ex1data1.txt, get univariate linear regression model, predict price and so on.
 # ex1_multi.m -- *Script File*
