@@ -24,7 +24,7 @@ where **X** is `m x (n+1)` matrix, **y** is `m x 1` matrix, **theta** is `(n+1) 
 where **X** is `m x (n+1)` matrix, **y** is `m x 1` matrix, **theta** is `(n+1) x 1` matrix. It uses vectorize implementation of cost **J**.
 # normalEqn.m -- *Script File*
 **normalEqn.m** file has `normalEqn(X,y)` method, which computes the **theta** using matrix computation, instead of gradient descent algorithm. The method looks like in octave `function [theta] = normalEqn(X, y)`, where **X** is `m x (n+1)` matrix and **y** is `m x 1` matrix.   
-**NOTE:** In the normal equation computation, `m` should be greater than `n` because **X** is non-invertible if `m < n`, and may be non-invertible if `m = n`. We can solve non-invertable issue by using regularization term. See **Regularized Linear Regression** video of **Machine Learning** course by **Andrew Ng**.\
+**NOTE:** In the normal equation computation, `m` should be greater than `n` because **X** is non-invertible if `m < n`, and may be non-invertible if `m = n`. We can solve non-invertable issue by using regularization term. See **Regularized Linear Regression** video of **Machine Learning** course by **Andrew Ng**.
 # plotData.m -- *Script File*
 **plotData.m** file has plotData(X,y) method, that is used to visualize **X** `(m x 1)`, **y** `(m x 1)`, and univariate regression line. 
 # ex1.m -- *Script File*
