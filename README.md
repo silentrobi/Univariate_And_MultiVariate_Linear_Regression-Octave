@@ -36,7 +36,8 @@ This is the file that should be run for multivariate linear regression.This file
 # ex1.pdf 
 This PDF file has the detail description of the homework.
 
-**NOTE:** Cost theta of linear regression can be regularized to prevent overfitting and underfitting problem. Regularized cost theta can be found on course lecture of week 3.
+# NOTE 
+Cost **J** and **gradient** of linear regression can be regularized to prevent overfitting and underfitting problem. Regularized cost **J** and **gradient** can be found on course lecture of week 3.
 
 
 
